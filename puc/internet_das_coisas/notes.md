@@ -24,3 +24,19 @@ O binário 111000, como fica: <br><br>
 Explicando: multiplica-se cada algarismo do número pela sua base (neste exemplo, como é um número binário, a base é 2) onde sua potência é o número da casa que ocupa, começando do 0 e da direita para a esquerda (igual no exemplo, a última expressão a potência da base é 0 e a primeira expressão possui potência 5 = posição da casa).
 
 <hr>
+
+# SEMANA 2
+
+### FUNDAMENTOS DE ARQUITETURA DE COMPUTADORES
+Todo computador possui componentes básicos específicos para seu funcionamento, estes são divididos em processador, memória e periféricos:
+ - Processador: atua na realização das ordens e/ou instruções, é o que processa os dados daquela máquina e das aplicações que estão sendo executadas, como os dedicados ou que são integrados à uma placa de vídeo;
+ - Memória: é responsável por armazenar os dados daquele dispositivo, como a memória RAM, ROM, HD, SSD entre outros;
+ - Periféricos: são os hardware da respectiva máquina, periféricos de entrada e saída de dados, como o mouse, teclado, monitor, gabinete, caixa de som entre outros.
+
+### COMO FUNCIONA UM MICROPROCESSADOR
+Chamamos o processador de "cérebro" do computador, pois ele é o responsável por comandar e decodificar as informações da máquina, ele, por sua vez, é dividido em algumas partes, os registradores, são pequenas variáveis (células de memória) que armazenam para nós números em binário (onde convertidos transformam-se em informações). Seguem as partes:
+ - AX e BX: registradores que são como variáveis uso geral;
+ - PC: registrador de uso específico, ele aponta onde na memória será buscado a respectiva instrução;
+ - IR: serve para armazenar temporariamente a instrução buscada na memória;
+ - Unidade Lógico/Aritmética: responsável por executar operações lógicas (como com conectivos "e, ou" (como na tabela verdade)) e aritméticas (adição, subtração entre outros);
+ - Unidade de Controle: assim como o microprocessador é o cérebro do computador a Unidade de Controle é o cérebro do microprocessador, ela é um autômato (máquina de estado) que coordena todas as ações dentro do microprocessador, ela é representada pelo diagrama chamado Ciclo de Máquina que, por sua vez, é composto por 3 passos fundamentais: a Busca (Fetch - como o nome diz, responsável por buscar a informação que ele irá executar), a Decodificação (responsável por entender aquela informação a fim de executá-la) e a Execução (a mais importante, executa a informação requerida).
