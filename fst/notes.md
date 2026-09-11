@@ -48,7 +48,8 @@ Pesquisar Windows Update.
 ### PC NÃO DANDO VÍDEO:
  - Tirar e colocar novamente a RAM;
  - Se o PC tiver placa de vídeo dedicada, conectar o VGA ou HDMI no conector de baixo do gabinete, não no de cima;
- - Tirar a plaquinha da BIOS (que salva a data e hora) por 60seg, enquanto isso pressionar por 15seg o botão de desligar do computador (com o mesmo fora da tomada).
+ - Tirar a plaquinha da BIOS (que salva a data e hora) por 60seg, enquanto isso pressionar por 15seg o botão de desligar do computador (com o mesmo fora da tomada;
+ - Verificar se a voltagem do PC está na mesma da casa (se tiver mais alta não dá vídeo, se mais baixa pode queimar algo dentro do PC).
 
 <hr>
 
