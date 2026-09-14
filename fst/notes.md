@@ -18,7 +18,8 @@ Apps para baixar no Ninite:
  - Foxit Reader; 
  - Antivírus (Essentials); 
  - Java (site oficial); 
- - Apps do Office (servidor).
+ - Apps do Office (servidor):
+ - AnyDesk (site oficial).
 
 ### ÁREA DE TRABALHO:
 Personalizar -> Temas -> Ícones área de trabalho -> user, rede, computador e lixeira.
