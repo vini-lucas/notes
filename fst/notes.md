@@ -3,7 +3,7 @@
 <hr>
 
 ### DADOS SERVIDOR:
-Acessar: \\serv01 <br>
+Acessar: \\\serv01 <br>
 Login: SUPORTE <br>
 Senha: FSTSOLUÇOES <br>
 
