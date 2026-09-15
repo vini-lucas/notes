@@ -68,3 +68,13 @@ HD:
  - 120 à 190 mbps -> ótimo;
  - 70 à 120 -> ok;
  - Menos de 70: troca.
+
+<hr>
+
+
+### PROBLEMAS NA IMPRESSORA:
+ - Desligar e ligar novamente com "net stop spooler" e "net start spooler";
+ - Limpar os arquivos temporários que estão em spooler -> printers;
+ - Baixar drivers atualizados***.
+
+*** Precisa desinstalar a impressora, procurar o site oficial dela e instalá-la novamente junto de seus drivers, se tiver mais de uma impressora conectada à rede basta fazer isso com uma e desligar e ligar novamente as demais.
