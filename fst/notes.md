@@ -77,5 +77,5 @@ HD:
  - Limpar os arquivos temporários que estão em spooler -> printers;
  - Baixar drivers atualizados***.
 
-*** Precisa desinstalar a impressora, procurar o site oficial dela e instalá-la novamente junto de seus drivers, se tiver mais de uma impressora conectada à rede basta fazer isso com uma e desligar e ligar novamente as demais.
+*** Precisa desinstalar a impressora, procurar o site oficial dela e instalá-la novamente junto de seus drivers, se tiver mais de uma impressora conectada à rede basta fazer isso com uma e desligar e ligar novamente as demais.<br>
 O arquivo .bat que limpa os arquivos temporários e reinicia automaticamente a impressora está na área de trabalho do PC do fundo da empresa.
