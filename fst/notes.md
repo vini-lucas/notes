@@ -79,3 +79,23 @@ HD:
 
 *** Precisa desinstalar a impressora, procurar o site oficial dela e instalá-la novamente junto de seus drivers, se tiver mais de uma impressora conectada à rede basta fazer isso com uma e desligar e ligar novamente as demais.<br>
 O arquivo .bat que limpa os arquivos temporários e reinicia automaticamente a impressora está na área de trabalho do PC do fundo da empresa.
+
+<hr>
+
+### PC NÃO LIGA (sem ser questão de ligar e não dar imagem, simplesmente não ligar (ventoinha do cooler não rodar)):
+ - Verificar se a voltagem da fonte é a mesma da casa (caso a fonte do cliente tenha vindo em 220v perguntar se na casa dele a voltagem de fato é esta para devolver conforme estava);
+ - Verificar os fios dos botões ligar e reiniciar***;
+ - Se não, verificar se a fonte está funcionando (retirá-la e testar com a fonte teste).
+
+*** Segue modelo de como fica a ordem dos fios do botões ligar e reiniciar nos pinos da placa mãe:
+<img width="1107" height="768" alt="image" src="https://github.com/user-attachments/assets/02a6c5b6-232d-43ac-a1da-ba8df0cdbde3" />
+
+<hr>
+
+### SUBSTITUIR IMPRESSORA (ordem):
+ - 1: Tirar relatório de rede e configuração inicial da impressora que será substituída;
+ - 2: Desmontar impressora antiga, montar a nova e tirar todo os embrulhos dela;
+ - 3: Conectar a nova no cabo de rede e no estabilizador, em seguida ligá-la;
+ - 4: Inserir o pen drive e atualizar os drivers da nova impressora;
+ - 5: Acessar as configurações de ethernet e colocar o mesmo IP, máscara de rede e gateway da anterior (por isso precisou tirar o relatório da anterior);
+ - 6: Fazer a mesma coisa do endereço de servidor DNS e servidor DNS backup. 
