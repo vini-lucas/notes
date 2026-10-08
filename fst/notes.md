@@ -44,6 +44,10 @@ Instruções estão no servidor: "PROGRAMAS" -> "irm.txt".
 ### VERIFICAR ATUALIZAÇÕES DO WINDOWS:
 Pesquisar Windows Update.
 
+### AO INSTALAR WINDOWS 10 E O SISTEMA OBRIGAR A CONECTAR À INTERNET:
+Teclar shift + F10 e, quando abrir o CMD, digitar "oobe\bypassnro".
+Se for Windows 10 antigo, digitar "taskkill /F /IM oobenetworkconnectionflow.exe".
+
 <hr>
 
 ### PC NÃO DANDO VÍDEO:
@@ -98,4 +102,15 @@ O arquivo .bat que limpa os arquivos temporários e reinicia automaticamente a i
  - 3: Conectar a nova no cabo de rede e no estabilizador, em seguida ligá-la;
  - 4: Inserir o pen drive e atualizar os drivers da nova impressora;
  - 5: Acessar as configurações de ethernet e colocar o mesmo IP, máscara de rede e gateway da anterior (por isso precisou tirar o relatório da anterior);
- - 6: Fazer a mesma coisa do endereço de servidor DNS e servidor DNS backup. 
+ - 6: Fazer a mesma coisa do endereço de servidor DNS e servidor DNS backup.
+
+<hr>
+
+### ATIVAR WINDOWS/OFFICE E BAIXAR OS PROGRAMAS DO OFFICE:
+irm https://get.activated.win | iex
+ - Ativar Office: selecionar opção 4 e depois a 2;
+ - Ativar Windows: selecionar opção 4 e depois a 1;
+
+Windows 7: 
+iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win'))
+
