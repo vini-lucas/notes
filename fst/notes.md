@@ -44,6 +44,9 @@ Instruções estão no servidor: "PROGRAMAS" -> "irm.txt".
 ### VERIFICAR ATUALIZAÇÕES DO WINDOWS:
 Pesquisar Windows Update.
 
+### INSTALAR DRIVERS NECESSÁRIOS:
+Drive Booster e, se tiver placa de vídeo, instalar no site oficial (verificar se os drivers estão corretos indo no gerenciador de tarefas).
+
 ### AO INSTALAR WINDOWS 10 E O SISTEMA OBRIGAR A CONECTAR À INTERNET:
 Teclar shift + F10 e, quando abrir o CMD, digitar "oobe\bypassnro".
 Se for Windows 10 antigo, digitar "taskkill /F /IM oobenetworkconnectionflow.exe".
@@ -74,7 +77,6 @@ HD:
  - Menos de 70: troca.
 
 <hr>
-
 
 ### PROBLEMAS NA IMPRESSORA:
  - Desligar e ligar novamente com "net stop spooler" e "net start spooler";
@@ -113,4 +115,10 @@ irm https://get.activated.win | iex
 
 Windows 7: 
 iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win'))
+
+<hr>
+
+### INTERNET DESCONECTANDO VIA CABO:
+ - Atualizar drivers (da página oficial da marca da placa mãe);
+ - Trocar o chip da placa mãe ou em último caso a placa mãe inteira.
 
