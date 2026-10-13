@@ -118,6 +118,20 @@ iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win'))
 
 <hr>
 
+### ERRO DE REPARO AUTOMÁTICO AO INICIAR SISTEMA OPERACIONAL:
+Opção que lê o que tem no disco rígido e repara os arquivos corrompidos
+```
+chkdsk D: /f /r /x
+
+sfc /scannow /offbootdir=D:\ /offwindir=D:\Windows
+
+bootrec /fixmbr
+bootrec /fixboot
+bootrec /rebuildbcd
+```
+
+<hr>
+
 ### INTERNET DESCONECTANDO VIA CABO:
  - Atualizar drivers (da página oficial da marca da placa mãe);
  - Trocar o chip da placa mãe ou em último caso a placa mãe inteira.
