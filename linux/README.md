@@ -366,3 +366,8 @@ Aumentar/diminuir brilho:
 sudo pacman -S brightnessctl
 brightnessctl set +10%
 ```
+
+Isolar monitor secundário como único de uso:
+```
+wlr-randr --output eDP-1 --off
+```
